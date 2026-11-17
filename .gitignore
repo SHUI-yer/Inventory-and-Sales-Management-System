@@ -1,0 +1,54 @@
+# Python caches and test artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+.tox/
+
+# Virtual environments and local configuration
+.venv/
+venv/
+env/
+ENV/
+.env
+.env.*
+!.env.example
+client_config.json
+*.local
+*.secret
+
+# Runtime data, databases, logs and backups
+data/
+*.db
+*.sqlite
+*.sqlite3
+*.log
+backups/
+
+# Build and distribution output
+build/
+dist/
+release/
+项目发布包/
+*.spec
+*.exe
+*.msi
+*.zip
+
+# IDE and editor settings
+.idea/
+.vscode/
+*.iml
+*.swp
+*.swo
+
+# Operating-system files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
